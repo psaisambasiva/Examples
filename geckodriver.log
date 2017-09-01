@@ -1,0 +1,766 @@
+1502624275382	geckodriver	INFO	geckodriver 0.18.0
+1502624275423	geckodriver	INFO	Listening on 127.0.0.1:52453
+1502624276626	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502624276901	addons.manager	DEBUG	Application has been upgraded
+1502624276932	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1502624276934	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1502624276938	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1502624276940	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1502624276940	addons.manager	DEBUG	Starting provider: XPIProvider
+1502624276941	addons.xpi	DEBUG	startup
+1502624276941	addons.xpi	INFO	Removing all system add-on upgrades.
+1502624276941	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1502624276942	addons.xpi	INFO	Mapping aushelper@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1502624276943	addons.xpi	INFO	Mapping e10srollout@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi
+1502624276943	addons.xpi	INFO	Mapping firefox@getpocket.com to /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1502624276944	addons.xpi	INFO	Mapping screenshots@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
+1502624276944	addons.xpi	INFO	Mapping webcompat@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1502624276944	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1502624276945	addons.xpi	DEBUG	checkForChanges
+1502624276945	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1502624276945	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+1502624276946	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+1502624276947	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1502624276947	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+1502624276947	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1502624276948	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1502624276948	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1502624276948	addons.xpi	DEBUG	New add-on screenshots@mozilla.org in app-system-defaults
+1502624276948	addons.xpi	DEBUG	getModTime: Recursive scan of screenshots@mozilla.org
+1502624276949	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+1502624276949	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1502624276949	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1502624276949	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1502624276950	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-system-defaults":{"aushelper@mozilla.org":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi","st":1498666068000},"e10srollout@mozilla.org":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi","st":1498666068000},"firefox@getpocket.com":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi","st":1498666068000},"screenshots@mozilla.org":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi","st":1498666068000},"webcompat@mozilla.org":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi","st":1498666068000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1498666068000}}}
+1502624276956	addons.xpi-utils	DEBUG	Opening XPI database /tmp/rust_mozprofile.uyVYEegzFx8n/extensions.json
+1502624276957	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1502624276965	DeferredSave.extensions.json	DEBUG	Save changes
+1502624276965	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+1502624276969	DeferredSave.extensions.json	DEBUG	Starting timer
+1502624276971	DeferredSave.extensions.json	DEBUG	Save changes
+1502624276971	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1502624276977	DeferredSave.extensions.json	DEBUG	Save changes
+1502624276977	addons.xpi-utils	DEBUG	New add-on screenshots@mozilla.org installed in app-system-defaults
+1502624276982	DeferredSave.extensions.json	DEBUG	Save changes
+1502624276983	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+1502624276987	DeferredSave.extensions.json	DEBUG	Save changes
+1502624276987	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1502624276992	DeferredSave.extensions.json	DEBUG	Save changes
+1502624276993	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+1502624277004	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1502624277008	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+1502624277008	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+1502624277009	DeferredSave.extensions.json	DEBUG	Save changes
+1502624277010	addons.manager	DEBUG	Registering startup change 'installed' for e10srollout@mozilla.org
+1502624277010	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi
+1502624277011	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.50
+1502624277012	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+1502624277013	DeferredSave.extensions.json	DEBUG	Save changes
+1502624277013	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+1502624277013	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1502624277016	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+1502624277016	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1502624277016	DeferredSave.extensions.json	DEBUG	Save changes
+1502624277016	addons.manager	DEBUG	Registering startup change 'installed' for screenshots@mozilla.org
+1502624277017	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
+1502624277018	addons.xpi	DEBUG	Calling bootstrap method install on screenshots@mozilla.org version 6.6.0
+1502624277018	addons.xpi-utils	DEBUG	Make addon app-system-defaults:screenshots@mozilla.org visible
+1502624277018	DeferredSave.extensions.json	DEBUG	Save changes
+1502624277018	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+1502624277019	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1502624277020	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.1
+1502624277020	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+1502624277021	DeferredSave.extensions.json	DEBUG	Save changes
+1502624277021	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1502624277021	DeferredSave.extensions.json	DEBUG	Save changes
+1502624277021	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{60b0187a-0691-df4f-8fce-06d86fd393bb}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi","installDate":1498666068000,"updateDate":1498666068000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502624277021	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1502624277022	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{f786973e-cdf5-484d-8aec-a91a485014a1}","location":"app-system-defaults","version":"1.50","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi","installDate":1498666068000,"updateDate":1498666068000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":12519,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502624277022	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1502624277022	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{efa026fc-d52f-5847-98f9-2a3112ce1681}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi","installDate":1498666068000,"updateDate":1498666068000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":913906,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502624277022	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1502624277022	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{0fde5a2f-0ae0-e044-b7f1-6b91f94b26de}","location":"app-system-defaults","version":"6.6.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://pageshot.net/"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi","installDate":1498666068000,"updateDate":1498666068000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":716271,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"51.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502624277022	addons.xpi	DEBUG	getModTime: Recursive scan of screenshots@mozilla.org
+1502624277023	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{f98eb60c-da11-a541-a39f-b079c92e5eb4}","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi","installDate":1498666068000,"updateDate":1498666068000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":9006,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502624277023	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1502624277023	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{c6e48e89-a063-f64c-87b7-52435a7c5181}","location":"app-global","version":"54.0.1","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":"chrome://browser/content/default-theme-icon.svg","icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1498666068000,"updateDate":1498666068000,"applyBackgroundUpdates":1,"skinnable":true,"size":3914,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.0.1"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null}
+1502624277023	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1502624277024	DeferredSave.extensions.json	DEBUG	Save changes
+1502624277024	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1502624277024	addons.xpi-utils	DEBUG	Updating add-on states
+1502624277025	addons.xpi-utils	DEBUG	Writing add-ons list
+1502624277026	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1502624277027	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1502624277027	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi
+1502624277028	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1502624277028	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1502624277029	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1502624277029	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
+1502624277029	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1502624277030	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1502624277030	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1502624277034	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1502624277035	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1502624277036	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1502624277036	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1502624277036	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1502624277036	addons.manager	DEBUG	Starting provider: GMPProvider
+1502624277040	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1502624277040	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1502624277040	addons.manager	DEBUG	Starting provider: PluginProvider
+1502624277040	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1502624277040	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1502624277040	addons.manager	DEBUG	Completed startup sequence
+1502624277293	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1502624277293	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1502624277294	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1502624277316	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1502624277317	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1502624277317	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1502624277320	DeferredSave.extensions.json	DEBUG	Starting write
+1502624277433	DeferredSave.extensions.json	DEBUG	Write succeeded
+1502624277434	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1502624278282	Marionette	INFO	Listening on port 52462
+1502624278386	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502624278510	Marionette	DEBUG	loaded listener.js
+1502624278538	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 17:07:58.558 plugin-container[5605:102802] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x973b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 17:07:58.559 plugin-container[5605:102802] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9a03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502624283228	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502624283229	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502624284866	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624284943	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624284947	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624285000	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624285037	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624285040	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624285122	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624285123	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624285124	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624285125	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624285279	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624285340	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624285449	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624285450	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624285451	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624285551	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/html/r20170807/r20170110/zrt_lookup.html#"
+1502624285552	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/html/r20170807/r20170110/zrt_lookup.html#"
+1502624285718	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6685711026657277&output=html&h=250&slotname=4297057865&adk=121994594&adf=200314170&w=970&lmt=1502624285&loeid=368226014&flash=0&url=https%3A%2F%2Fwww.irctc.co.in%2Feticketing%2FloginHome.jsf&wgl=1&dt=1502624284848&bpp=11&bdt=1620&fdt=19&idt=388&shv=r20170807&cbv=r20170110&saldr=sa&correlator=1380184313087&frm=20&ga_vid=262742277.1502624285&ga_sid=1502624285&ga_hid=1558707916&ga_fc=0&pv=2&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=900&u_w=1440&u_ah=797&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=332&ady=640&biw=1280&bih=638&abxe=1&eid=368226004&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C717%2C1280%2C638&vis=1&rsz=%7C%7CloeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=1&xpc=XBDqKWXJuq&p=https%3A//www.irctc.co.in&dtd=420"
+1502624285724	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6685711026657277&output=html&h=250&slotname=4297057865&adk=121994594&adf=200314170&w=970&lmt=1502624285&loeid=368226014&flash=0&url=https%3A%2F%2Fwww.irctc.co.in%2Feticketing%2FloginHome.jsf&wgl=1&dt=1502624284848&bpp=11&bdt=1620&fdt=19&idt=388&shv=r20170807&cbv=r20170110&saldr=sa&correlator=1380184313087&frm=20&ga_vid=262742277.1502624285&ga_sid=1502624285&ga_hid=1558707916&ga_fc=0&pv=2&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=900&u_w=1440&u_ah=797&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=332&ady=640&biw=1280&bih=638&abxe=1&eid=368226004&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C717%2C1280%2C638&vis=1&rsz=%7C%7CloeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=1&xpc=XBDqKWXJuq&p=https%3A//www.irctc.co.in&dtd=420"
+1502624285725	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624285766	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6685711026657277&output=html&h=90&slotname=8261066182&adk=2393475533&adf=3804402607&w=970&lmt=1502624285&loeid=368226014&flash=0&url=https%3A%2F%2Fwww.irctc.co.in%2Feticketing%2FloginHome.jsf&wgl=1&dt=1502624284948&bpp=8&bdt=1720&fdt=388&idt=443&shv=r20170807&cbv=r20170110&saldr=sa&prev_slotnames=4297057865%2C9574148485&correlator=1380184313087&frm=20&ga_vid=262742277.1502624285&ga_sid=1502624285&ga_hid=1558707916&ga_fc=0&pv=1&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=900&u_w=1440&u_ah=797&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=332&ady=1121&biw=1280&bih=638&abxe=1&eid=368226004&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C717%2C1280%2C638&vis=1&rsz=%7C%7CpoeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=3&xpc=WNggg8R4PH&p=https%3A//www.irctc.co.in&dtd=472"
+1502624285771	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6685711026657277&output=html&h=90&slotname=8261066182&adk=2393475533&adf=3804402607&w=970&lmt=1502624285&loeid=368226014&flash=0&url=https%3A%2F%2Fwww.irctc.co.in%2Feticketing%2FloginHome.jsf&wgl=1&dt=1502624284948&bpp=8&bdt=1720&fdt=388&idt=443&shv=r20170807&cbv=r20170110&saldr=sa&prev_slotnames=4297057865%2C9574148485&correlator=1380184313087&frm=20&ga_vid=262742277.1502624285&ga_sid=1502624285&ga_hid=1558707916&ga_fc=0&pv=1&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=900&u_w=1440&u_ah=797&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=332&ady=1121&biw=1280&bih=638&abxe=1&eid=368226004&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C717%2C1280%2C638&vis=1&rsz=%7C%7CpoeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=3&xpc=WNggg8R4PH&p=https%3A//www.irctc.co.in&dtd=472"
+1502624285772	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624285816	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6685711026657277&output=html&h=250&slotname=9574148485&adk=2058573712&adf=1354664170&w=300&lmt=1502624285&loeid=368226014&flash=0&url=https%3A%2F%2Fwww.irctc.co.in%2Feticketing%2FloginHome.jsf&wgl=1&dt=1502624284892&bpp=7&bdt=1665&fdt=386&idt=404&shv=r20170807&cbv=r20170110&saldr=sa&prev_slotnames=4297057865&correlator=1380184313087&frm=20&ga_vid=262742277.1502624285&ga_sid=1502624285&ga_hid=1558707916&ga_fc=0&pv=1&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=900&u_w=1440&u_ah=797&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=19&ady=895&biw=1280&bih=638&abxe=1&eid=368226004&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C717%2C1280%2C638&vis=1&rsz=%7C%7CloeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=2&xpc=v2WFNsGkTR&p=https%3A//www.irctc.co.in&dtd=434"
+1502624285824	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6685711026657277&output=html&h=250&slotname=9574148485&adk=2058573712&adf=1354664170&w=300&lmt=1502624285&loeid=368226014&flash=0&url=https%3A%2F%2Fwww.irctc.co.in%2Feticketing%2FloginHome.jsf&wgl=1&dt=1502624284892&bpp=7&bdt=1665&fdt=386&idt=404&shv=r20170807&cbv=r20170110&saldr=sa&prev_slotnames=4297057865&correlator=1380184313087&frm=20&ga_vid=262742277.1502624285&ga_sid=1502624285&ga_hid=1558707916&ga_fc=0&pv=1&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=900&u_w=1440&u_ah=797&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=19&ady=895&biw=1280&bih=638&abxe=1&eid=368226004&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C717%2C1280%2C638&vis=1&rsz=%7C%7CloeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=2&xpc=v2WFNsGkTR&p=https%3A//www.irctc.co.in&dtd=434"
+1502624285824	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624286461	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624286469	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624286545	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624286729	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624286740	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+JavaScript warning: https://www.irctc.co.in/eticketing/home, line 1: unreachable code after return statement
+1502624338136	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/54.0.1/20170628075643/Darwin_x86_64-gcc3/en-US/release/Darwin%2016.7.0/default/default/update.xml
+1502624340037	addons.productaddons	INFO	Completed downloading document
+1502624341399	addons.productaddons	INFO	downloadXHR File download. status=200
+1502624341401	addons.productaddons	INFO	Downloaded file will be saved to /private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/TemporaryItems/tmpaddon
+1502624344717	addons.productaddons	INFO	downloadXHR File download. status=200
+1502624344719	addons.productaddons	INFO	Downloaded file will be saved to /private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/TemporaryItems/tmpaddon
+1502624850494	Marionette	DEBUG	loaded listener.js
+2017-08-13 17:17:30.590 plugin-container[5674:109094] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x923b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 17:17:30.591 plugin-container[5674:109094] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9503, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502624853428	addons.manager	INFO	Skipping background update check
+1502624923450	geckodriver	INFO	geckodriver 0.18.0
+1502624923491	geckodriver	INFO	Listening on 127.0.0.1:52838
+1502624924526	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502624924685	addons.manager	DEBUG	Application has been upgraded
+1502624924703	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1502624924704	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1502624924707	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1502624924708	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1502624924709	addons.manager	DEBUG	Starting provider: XPIProvider
+1502624924710	addons.xpi	DEBUG	startup
+1502624924710	addons.xpi	INFO	Removing all system add-on upgrades.
+1502624924710	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1502624924711	addons.xpi	INFO	Mapping aushelper@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1502624924712	addons.xpi	INFO	Mapping e10srollout@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi
+1502624924712	addons.xpi	INFO	Mapping firefox@getpocket.com to /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1502624924712	addons.xpi	INFO	Mapping screenshots@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
+1502624924712	addons.xpi	INFO	Mapping webcompat@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1502624924713	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1502624924713	addons.xpi	DEBUG	checkForChanges
+1502624924713	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1502624924714	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+1502624924714	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+1502624924715	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1502624924716	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+1502624924716	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1502624924716	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1502624924717	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1502624924717	addons.xpi	DEBUG	New add-on screenshots@mozilla.org in app-system-defaults
+1502624924717	addons.xpi	DEBUG	getModTime: Recursive scan of screenshots@mozilla.org
+1502624924718	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+1502624924718	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1502624924719	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1502624924719	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1502624924719	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-system-defaults":{"aushelper@mozilla.org":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi","st":1498666068000},"e10srollout@mozilla.org":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi","st":1498666068000},"firefox@getpocket.com":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi","st":1498666068000},"screenshots@mozilla.org":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi","st":1498666068000},"webcompat@mozilla.org":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi","st":1498666068000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1498666068000}}}
+1502624924725	addons.xpi-utils	DEBUG	Opening XPI database /tmp/rust_mozprofile.la9LB7aXifGL/extensions.json
+1502624924726	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1502624924734	DeferredSave.extensions.json	DEBUG	Save changes
+1502624924734	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+1502624924738	DeferredSave.extensions.json	DEBUG	Starting timer
+1502624924740	DeferredSave.extensions.json	DEBUG	Save changes
+1502624924740	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1502624924744	DeferredSave.extensions.json	DEBUG	Save changes
+1502624924745	addons.xpi-utils	DEBUG	New add-on screenshots@mozilla.org installed in app-system-defaults
+1502624924749	DeferredSave.extensions.json	DEBUG	Save changes
+1502624924750	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+1502624924753	DeferredSave.extensions.json	DEBUG	Save changes
+1502624924753	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1502624924757	DeferredSave.extensions.json	DEBUG	Save changes
+1502624924758	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+1502624924765	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1502624924768	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+1502624924768	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+1502624924769	DeferredSave.extensions.json	DEBUG	Save changes
+1502624924769	addons.manager	DEBUG	Registering startup change 'installed' for e10srollout@mozilla.org
+1502624924770	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi
+1502624924772	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.50
+1502624924773	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+1502624924773	DeferredSave.extensions.json	DEBUG	Save changes
+1502624924773	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+1502624924774	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1502624924776	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+1502624924776	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1502624924776	DeferredSave.extensions.json	DEBUG	Save changes
+1502624924776	addons.manager	DEBUG	Registering startup change 'installed' for screenshots@mozilla.org
+1502624924777	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
+1502624924778	addons.xpi	DEBUG	Calling bootstrap method install on screenshots@mozilla.org version 6.6.0
+1502624924778	addons.xpi-utils	DEBUG	Make addon app-system-defaults:screenshots@mozilla.org visible
+1502624924779	DeferredSave.extensions.json	DEBUG	Save changes
+1502624924779	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+1502624924779	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1502624924780	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.1
+1502624924780	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+1502624924781	DeferredSave.extensions.json	DEBUG	Save changes
+1502624924781	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1502624924781	DeferredSave.extensions.json	DEBUG	Save changes
+1502624924781	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{258f4cf4-418f-9649-af9d-dd755d034c0a}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi","installDate":1498666068000,"updateDate":1498666068000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502624924782	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1502624924782	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{beec3e80-9359-7049-aa41-ced3c957c3b4}","location":"app-system-defaults","version":"1.50","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi","installDate":1498666068000,"updateDate":1498666068000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":12519,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502624924782	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1502624924782	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{9da767a3-3a62-dd42-8d37-11da29460e88}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi","installDate":1498666068000,"updateDate":1498666068000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":913906,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502624924782	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1502624924783	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{c54724cb-1c48-3448-bd71-c1154b94a765}","location":"app-system-defaults","version":"6.6.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://pageshot.net/"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi","installDate":1498666068000,"updateDate":1498666068000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":716271,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"51.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502624924783	addons.xpi	DEBUG	getModTime: Recursive scan of screenshots@mozilla.org
+1502624924783	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{782594de-698a-6b4c-b842-3105afcff717}","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi","installDate":1498666068000,"updateDate":1498666068000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":9006,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502624924783	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1502624924783	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{5836c28d-49fc-b24e-8ad8-efad573079fb}","location":"app-global","version":"54.0.1","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":"chrome://browser/content/default-theme-icon.svg","icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1498666068000,"updateDate":1498666068000,"applyBackgroundUpdates":1,"skinnable":true,"size":3914,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.0.1"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null}
+1502624924784	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1502624924784	DeferredSave.extensions.json	DEBUG	Save changes
+1502624924784	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1502624924784	addons.xpi-utils	DEBUG	Updating add-on states
+1502624924785	addons.xpi-utils	DEBUG	Writing add-ons list
+1502624924787	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1502624924787	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1502624924788	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi
+1502624924788	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1502624924788	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1502624924789	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1502624924790	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
+1502624924790	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1502624924790	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1502624924790	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1502624924794	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1502624924795	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1502624924796	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1502624924796	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1502624924796	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1502624924796	addons.manager	DEBUG	Starting provider: GMPProvider
+1502624924799	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1502624924800	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1502624924800	addons.manager	DEBUG	Starting provider: PluginProvider
+1502624924800	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1502624924800	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1502624924800	addons.manager	DEBUG	Completed startup sequence
+1502624925039	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1502624925039	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1502624925039	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1502624925056	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1502624925056	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1502624925057	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1502624925060	DeferredSave.extensions.json	DEBUG	Starting write
+1502624925166	DeferredSave.extensions.json	DEBUG	Write succeeded
+1502624925167	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1502624925961	Marionette	INFO	Listening on port 52847
+1502624926002	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502624926170	Marionette	DEBUG	loaded listener.js
+1502624926196	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 17:18:46.224 plugin-container[5721:110211] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x933b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 17:18:46.226 plugin-container[5721:110211] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9603, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502624926943	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502624926943	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502624928710	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624928801	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624928803	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624928963	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624928967	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624928974	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624928991	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624928993	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624929001	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624929002	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624929114	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/html/r20170807/r20170110/zrt_lookup.html#"
+1502624929115	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/html/r20170807/r20170110/zrt_lookup.html#"
+1502624929167	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624929259	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624929330	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624929333	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624929334	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624929434	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6685711026657277&output=html&h=250&slotname=4297057865&adk=121994594&adf=200314170&w=970&lmt=1502624929&flash=0&url=https%3A%2F%2Fwww.irctc.co.in%2Feticketing%2FloginHome.jsf&wgl=1&dt=1502624928693&bpp=10&bdt=1751&fdt=19&idt=430&shv=r20170807&cbv=r20170110&saldr=sa&correlator=5593486523113&frm=20&ga_vid=695038790.1502624928&ga_sid=1502624929&ga_hid=515120987&ga_fc=0&pv=2&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=900&u_w=1440&u_ah=797&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=332&ady=640&biw=1280&bih=638&abxe=1&eid=389613000%2C21060714%2C41242210&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C717%2C1280%2C638&vis=1&rsz=%7C%7CloeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=1&xpc=WmpYI1SZsn&p=https%3A//www.irctc.co.in&dtd=458"
+1502624929441	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6685711026657277&output=html&h=250&slotname=4297057865&adk=121994594&adf=200314170&w=970&lmt=1502624929&flash=0&url=https%3A%2F%2Fwww.irctc.co.in%2Feticketing%2FloginHome.jsf&wgl=1&dt=1502624928693&bpp=10&bdt=1751&fdt=19&idt=430&shv=r20170807&cbv=r20170110&saldr=sa&correlator=5593486523113&frm=20&ga_vid=695038790.1502624928&ga_sid=1502624929&ga_hid=515120987&ga_fc=0&pv=2&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=900&u_w=1440&u_ah=797&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=332&ady=640&biw=1280&bih=638&abxe=1&eid=389613000%2C21060714%2C41242210&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C717%2C1280%2C638&vis=1&rsz=%7C%7CloeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=1&xpc=WmpYI1SZsn&p=https%3A//www.irctc.co.in&dtd=458"
+1502624929442	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624929535	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6685711026657277&output=html&h=250&slotname=9574148485&adk=2058573712&adf=1354664170&w=300&lmt=1502624929&flash=0&url=https%3A%2F%2Fwww.irctc.co.in%2Feticketing%2FloginHome.jsf&wgl=1&dt=1502624928744&bpp=7&bdt=1802&fdt=420&idt=470&shv=r20170807&cbv=r20170110&saldr=sa&prev_slotnames=4297057865&correlator=5593486523113&frm=20&ga_vid=695038790.1502624928&ga_sid=1502624929&ga_hid=515120987&ga_fc=0&pv=1&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=900&u_w=1440&u_ah=797&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=19&ady=895&biw=1280&bih=638&abxe=1&eid=389613000%2C21060714%2C41242210&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C717%2C1280%2C638&vis=1&rsz=%7C%7CloeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=2&xpc=vzmBJ4RqUZ&p=https%3A//www.irctc.co.in&dtd=500"
+1502624929541	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6685711026657277&output=html&h=250&slotname=9574148485&adk=2058573712&adf=1354664170&w=300&lmt=1502624929&flash=0&url=https%3A%2F%2Fwww.irctc.co.in%2Feticketing%2FloginHome.jsf&wgl=1&dt=1502624928744&bpp=7&bdt=1802&fdt=420&idt=470&shv=r20170807&cbv=r20170110&saldr=sa&prev_slotnames=4297057865&correlator=5593486523113&frm=20&ga_vid=695038790.1502624928&ga_sid=1502624929&ga_hid=515120987&ga_fc=0&pv=1&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=900&u_w=1440&u_ah=797&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=19&ady=895&biw=1280&bih=638&abxe=1&eid=389613000%2C21060714%2C41242210&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C717%2C1280%2C638&vis=1&rsz=%7C%7CloeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=2&xpc=vzmBJ4RqUZ&p=https%3A//www.irctc.co.in&dtd=500"
+1502624929541	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624929616	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6685711026657277&output=html&h=90&slotname=8261066182&adk=2393475533&adf=3804402607&w=970&lmt=1502624929&flash=0&url=https%3A%2F%2Fwww.irctc.co.in%2Feticketing%2FloginHome.jsf&wgl=1&dt=1502624928804&bpp=14&bdt=1862&fdt=454&idt=493&shv=r20170807&cbv=r20170110&saldr=sa&prev_slotnames=4297057865%2C9574148485&correlator=5593486523113&frm=20&ga_vid=695038790.1502624928&ga_sid=1502624929&ga_hid=515120987&ga_fc=0&pv=1&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=900&u_w=1440&u_ah=797&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=332&ady=1121&biw=1280&bih=638&abxe=1&eid=389613000%2C21060714%2C41242210&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C717%2C1280%2C638&vis=1&rsz=%7C%7CpoeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=3&xpc=hzzfjJQyo0&p=https%3A//www.irctc.co.in&dtd=519"
+1502624929624	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6685711026657277&output=html&h=90&slotname=8261066182&adk=2393475533&adf=3804402607&w=970&lmt=1502624929&flash=0&url=https%3A%2F%2Fwww.irctc.co.in%2Feticketing%2FloginHome.jsf&wgl=1&dt=1502624928804&bpp=14&bdt=1862&fdt=454&idt=493&shv=r20170807&cbv=r20170110&saldr=sa&prev_slotnames=4297057865%2C9574148485&correlator=5593486523113&frm=20&ga_vid=695038790.1502624928&ga_sid=1502624929&ga_hid=515120987&ga_fc=0&pv=1&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=900&u_w=1440&u_ah=797&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=332&ady=1121&biw=1280&bih=638&abxe=1&eid=389613000%2C21060714%2C41242210&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C717%2C1280%2C638&vis=1&rsz=%7C%7CpoeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=3&xpc=hzzfjJQyo0&p=https%3A//www.irctc.co.in&dtd=519"
+1502624929625	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624929832	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624929843	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624929854	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624929945	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624930451	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+JavaScript warning: https://www.irctc.co.in/eticketing/home, line 1: unreachable code after return statement
+1502624958435	geckodriver	INFO	geckodriver 0.18.0
+1502624958476	geckodriver	INFO	Listening on 127.0.0.1:52933
+1502624959511	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502624959681	addons.manager	DEBUG	Application has been upgraded
+1502624959698	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1502624959700	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1502624959702	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1502624959704	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1502624959705	addons.manager	DEBUG	Starting provider: XPIProvider
+1502624959705	addons.xpi	DEBUG	startup
+1502624959705	addons.xpi	INFO	Removing all system add-on upgrades.
+1502624959705	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1502624959706	addons.xpi	INFO	Mapping aushelper@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1502624959706	addons.xpi	INFO	Mapping e10srollout@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi
+1502624959707	addons.xpi	INFO	Mapping firefox@getpocket.com to /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1502624959707	addons.xpi	INFO	Mapping screenshots@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
+1502624959707	addons.xpi	INFO	Mapping webcompat@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1502624959708	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1502624959708	addons.xpi	DEBUG	checkForChanges
+1502624959708	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1502624959709	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+1502624959710	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+1502624959710	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1502624959711	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+1502624959711	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1502624959712	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1502624959712	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1502624959712	addons.xpi	DEBUG	New add-on screenshots@mozilla.org in app-system-defaults
+1502624959712	addons.xpi	DEBUG	getModTime: Recursive scan of screenshots@mozilla.org
+1502624959713	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+1502624959713	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1502624959714	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1502624959714	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1502624959714	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-system-defaults":{"aushelper@mozilla.org":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi","st":1498666068000},"e10srollout@mozilla.org":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi","st":1498666068000},"firefox@getpocket.com":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi","st":1498666068000},"screenshots@mozilla.org":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi","st":1498666068000},"webcompat@mozilla.org":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi","st":1498666068000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1498666068000}}}
+1502624959720	addons.xpi-utils	DEBUG	Opening XPI database /tmp/rust_mozprofile.DQYFqSbgh6uO/extensions.json
+1502624959721	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1502624959728	DeferredSave.extensions.json	DEBUG	Save changes
+1502624959729	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+1502624959731	DeferredSave.extensions.json	DEBUG	Starting timer
+1502624959734	DeferredSave.extensions.json	DEBUG	Save changes
+1502624959734	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1502624959741	DeferredSave.extensions.json	DEBUG	Save changes
+1502624959741	addons.xpi-utils	DEBUG	New add-on screenshots@mozilla.org installed in app-system-defaults
+1502624959746	DeferredSave.extensions.json	DEBUG	Save changes
+1502624959747	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+1502624959750	DeferredSave.extensions.json	DEBUG	Save changes
+1502624959750	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1502624959753	DeferredSave.extensions.json	DEBUG	Save changes
+1502624959754	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+1502624959761	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1502624959764	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+1502624959764	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+1502624959765	DeferredSave.extensions.json	DEBUG	Save changes
+1502624959765	addons.manager	DEBUG	Registering startup change 'installed' for e10srollout@mozilla.org
+1502624959766	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi
+1502624959767	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.50
+1502624959768	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+1502624959769	DeferredSave.extensions.json	DEBUG	Save changes
+1502624959769	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+1502624959769	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1502624959772	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+1502624959772	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1502624959772	DeferredSave.extensions.json	DEBUG	Save changes
+1502624959772	addons.manager	DEBUG	Registering startup change 'installed' for screenshots@mozilla.org
+1502624959772	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
+1502624959774	addons.xpi	DEBUG	Calling bootstrap method install on screenshots@mozilla.org version 6.6.0
+1502624959775	addons.xpi-utils	DEBUG	Make addon app-system-defaults:screenshots@mozilla.org visible
+1502624959775	DeferredSave.extensions.json	DEBUG	Save changes
+1502624959775	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+1502624959776	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1502624959777	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.1
+1502624959777	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+1502624959778	DeferredSave.extensions.json	DEBUG	Save changes
+1502624959778	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1502624959778	DeferredSave.extensions.json	DEBUG	Save changes
+1502624959778	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{fc849d25-e3ef-994e-b449-37f5c6ae70d6}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi","installDate":1498666068000,"updateDate":1498666068000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502624959779	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1502624959779	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{e8e3a971-756f-7a43-9041-3ee0a1594f01}","location":"app-system-defaults","version":"1.50","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi","installDate":1498666068000,"updateDate":1498666068000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":12519,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502624959779	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1502624959779	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{783a9ab2-b5fb-f845-8c79-02b26df8ad8a}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi","installDate":1498666068000,"updateDate":1498666068000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":913906,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502624959779	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1502624959779	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{19b2986d-d6e4-f744-ad73-8e08037656ff}","location":"app-system-defaults","version":"6.6.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://pageshot.net/"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi","installDate":1498666068000,"updateDate":1498666068000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":716271,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"51.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502624959780	addons.xpi	DEBUG	getModTime: Recursive scan of screenshots@mozilla.org
+1502624959780	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{2a9081da-63c6-f84a-a24b-af9dcdb2c236}","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi","installDate":1498666068000,"updateDate":1498666068000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":9006,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502624959780	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1502624959780	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{1991ceb1-cc64-e345-b51e-a0ac09143731}","location":"app-global","version":"54.0.1","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":"chrome://browser/content/default-theme-icon.svg","icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1498666068000,"updateDate":1498666068000,"applyBackgroundUpdates":1,"skinnable":true,"size":3914,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.0.1"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null}
+1502624959781	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1502624959781	DeferredSave.extensions.json	DEBUG	Save changes
+1502624959781	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1502624959781	addons.xpi-utils	DEBUG	Updating add-on states
+1502624959782	addons.xpi-utils	DEBUG	Writing add-ons list
+1502624959783	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1502624959784	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1502624959784	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi
+1502624959785	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1502624959785	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1502624959785	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1502624959786	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
+1502624959786	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1502624959786	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1502624959787	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1502624959791	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1502624959792	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1502624959792	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1502624959792	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1502624959792	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1502624959793	addons.manager	DEBUG	Starting provider: GMPProvider
+1502624959796	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1502624959796	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1502624959796	addons.manager	DEBUG	Starting provider: PluginProvider
+1502624959796	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1502624959796	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1502624959796	addons.manager	DEBUG	Completed startup sequence
+1502624960037	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1502624960038	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1502624960038	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1502624960056	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1502624960056	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1502624960056	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1502624960060	DeferredSave.extensions.json	DEBUG	Starting write
+1502624960162	DeferredSave.extensions.json	DEBUG	Write succeeded
+1502624960163	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1502624960957	Marionette	INFO	Listening on port 52942
+1502624960998	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502624961168	Marionette	DEBUG	loaded listener.js
+1502624961192	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 17:19:21.224 plugin-container[5735:110867] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x933b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 17:19:21.225 plugin-container[5735:110867] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9603, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502624961786	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502624961786	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502624963089	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624963094	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624963153	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624963155	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624963236	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624963236	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624963238	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624963335	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624963336	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624963337	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624963338	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624963420	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624963453	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624963454	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624963493	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624963495	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624963644	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/html/r20170807/r20170110/zrt_lookup.html#"
+1502624963646	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/html/r20170807/r20170110/zrt_lookup.html#"
+1502624963652	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/html/r20170807/r20170110/zrt_lookup.html#"
+1502624963653	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/html/r20170807/r20170110/zrt_lookup.html#"
+1502624963653	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/html/r20170807/r20170110/zrt_lookup.html#"
+1502624963654	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/html/r20170807/r20170110/zrt_lookup.html#"
+1502624963859	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6685711026657277&output=html&h=250&slotname=4297057865&adk=121994594&adf=200314170&w=970&lmt=1502624963&loeid=21060500%2C368226015&flash=0&url=https%3A%2F%2Fwww.irctc.co.in%2Feticketing%2FloginHome.jsf&wgl=1&dt=1502624963052&bpp=9&bdt=1267&fdt=293&idt=300&shv=r20170807&cbv=r20170110&saldr=sa&correlator=2904606015567&frm=20&ga_vid=1934236218.1502624963&ga_sid=1502624963&ga_hid=602486270&ga_fc=0&pv=2&icsg=0&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=900&u_w=1440&u_ah=797&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=332&ady=640&biw=1280&bih=638&abxe=1&eid=368226005&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C717%2C1280%2C638&vis=1&rsz=%7C%7CloeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=1&xpc=e7c8MQHjvS&p=https%3A//www.irctc.co.in&dtd=327"
+1502624963867	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6685711026657277&output=html&h=250&slotname=4297057865&adk=121994594&adf=200314170&w=970&lmt=1502624963&loeid=21060500%2C368226015&flash=0&url=https%3A%2F%2Fwww.irctc.co.in%2Feticketing%2FloginHome.jsf&wgl=1&dt=1502624963052&bpp=9&bdt=1267&fdt=293&idt=300&shv=r20170807&cbv=r20170110&saldr=sa&correlator=2904606015567&frm=20&ga_vid=1934236218.1502624963&ga_sid=1502624963&ga_hid=602486270&ga_fc=0&pv=2&icsg=0&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=900&u_w=1440&u_ah=797&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=332&ady=640&biw=1280&bih=638&abxe=1&eid=368226005&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C717%2C1280%2C638&vis=1&rsz=%7C%7CloeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=1&xpc=e7c8MQHjvS&p=https%3A//www.irctc.co.in&dtd=327"
+1502624963868	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624964068	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6685711026657277&output=html&h=250&slotname=9574148485&adk=2058573712&adf=1354664170&w=300&lmt=1502624963&loeid=21060500%2C368226015&flash=0&url=https%3A%2F%2Fwww.irctc.co.in%2Feticketing%2FloginHome.jsf&wgl=1&dt=1502624963094&bpp=8&bdt=1309&fdt=303&idt=306&shv=r20170807&cbv=r20170110&saldr=sa&prev_slotnames=4297057865&correlator=2904606015567&frm=20&ga_vid=1934236218.1502624963&ga_sid=1502624963&ga_hid=602486270&ga_fc=0&pv=1&icsg=0&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=900&u_w=1440&u_ah=797&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=19&ady=895&biw=1280&bih=638&abxe=1&eid=368226005&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C717%2C1280%2C638&vis=1&rsz=%7C%7CloeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=2&xpc=rN2WDkrWE3&p=https%3A//www.irctc.co.in&dtd=319"
+1502624964094	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6685711026657277&output=html&h=250&slotname=9574148485&adk=2058573712&adf=1354664170&w=300&lmt=1502624963&loeid=21060500%2C368226015&flash=0&url=https%3A%2F%2Fwww.irctc.co.in%2Feticketing%2FloginHome.jsf&wgl=1&dt=1502624963094&bpp=8&bdt=1309&fdt=303&idt=306&shv=r20170807&cbv=r20170110&saldr=sa&prev_slotnames=4297057865&correlator=2904606015567&frm=20&ga_vid=1934236218.1502624963&ga_sid=1502624963&ga_hid=602486270&ga_fc=0&pv=1&icsg=0&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=900&u_w=1440&u_ah=797&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=19&ady=895&biw=1280&bih=638&abxe=1&eid=368226005&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C717%2C1280%2C638&vis=1&rsz=%7C%7CloeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=2&xpc=rN2WDkrWE3&p=https%3A//www.irctc.co.in&dtd=319"
+1502624964095	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624964112	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6685711026657277&output=html&h=90&slotname=8261066182&adk=2393475533&adf=3804402607&w=970&lmt=1502624963&loeid=21060500%2C368226015&flash=0&url=https%3A%2F%2Fwww.irctc.co.in%2Feticketing%2FloginHome.jsf&wgl=1&dt=1502624963155&bpp=7&bdt=1370&fdt=269&idt=272&shv=r20170807&cbv=r20170110&saldr=sa&prev_slotnames=4297057865%2C9574148485&correlator=2904606015567&frm=20&ga_vid=1934236218.1502624963&ga_sid=1502624963&ga_hid=602486270&ga_fc=0&pv=1&icsg=0&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=900&u_w=1440&u_ah=797&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=332&ady=1121&biw=1280&bih=638&abxe=1&eid=368226005&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C717%2C1280%2C638&vis=1&rsz=%7C%7CpoeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=3&xpc=KPrtrXRLcR&p=https%3A//www.irctc.co.in&dtd=286"
+1502624964120	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6685711026657277&output=html&h=90&slotname=8261066182&adk=2393475533&adf=3804402607&w=970&lmt=1502624963&loeid=21060500%2C368226015&flash=0&url=https%3A%2F%2Fwww.irctc.co.in%2Feticketing%2FloginHome.jsf&wgl=1&dt=1502624963155&bpp=7&bdt=1370&fdt=269&idt=272&shv=r20170807&cbv=r20170110&saldr=sa&prev_slotnames=4297057865%2C9574148485&correlator=2904606015567&frm=20&ga_vid=1934236218.1502624963&ga_sid=1502624963&ga_hid=602486270&ga_fc=0&pv=1&icsg=0&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=900&u_w=1440&u_ah=797&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=332&ady=1121&biw=1280&bih=638&abxe=1&eid=368226005&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C717%2C1280%2C638&vis=1&rsz=%7C%7CpoeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=3&xpc=KPrtrXRLcR&p=https%3A//www.irctc.co.in&dtd=286"
+1502624964121	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624964157	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624964164	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624964233	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624964346	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624964823	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502624985819	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/54.0.1/20170628075643/Darwin_x86_64-gcc3/en-US/release/Darwin%2016.7.0/default/default/update.xml
+1502624987383	addons.productaddons	INFO	Completed downloading document
+1502624988241	addons.productaddons	INFO	downloadXHR File download. status=200
+1502624988244	addons.productaddons	INFO	Downloaded file will be saved to /private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/TemporaryItems/tmpaddon
+1502624991704	addons.productaddons	INFO	downloadXHR File download. status=200
+1502624991708	addons.productaddons	INFO	Downloaded file will be saved to /private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/TemporaryItems/tmpaddon
+1502625020801	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/54.0.1/20170628075643/Darwin_x86_64-gcc3/en-US/release/Darwin%2016.7.0/default/default/update.xml
+1502625022344	addons.productaddons	INFO	Completed downloading document
+1502625023163	addons.productaddons	INFO	downloadXHR File download. status=200
+1502625023166	addons.productaddons	INFO	Downloaded file will be saved to /private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/TemporaryItems/tmpaddon
+1502625024953	addons.productaddons	INFO	downloadXHR File download. status=200
+1502625024955	addons.productaddons	INFO	Downloaded file will be saved to /private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/TemporaryItems/tmpaddon
+1502625044147	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1502625044147	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+1502625044148	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1502625044149	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.50
+1502625044150	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1502625044325	addons.manager	DEBUG	shutdown
+1502625044325	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1502625044326	addons.xpi	DEBUG	shutdown
+1502625044326	addons.xpi-utils	DEBUG	shutdown
+1502625044326	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1502625044327	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1502625044329	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1502625044329	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1502625044330	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1502625044333	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1502625044336	addons.manager	DEBUG	Async provider shutdown done
+1502625044377	Marionette	INFO	Ceased listening
+1502625046073	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1502625046074	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+1502625046074	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1502625046075	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.50
+1502625046076	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1502625046183	addons.manager	DEBUG	shutdown
+1502625046184	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1502625046184	addons.xpi	DEBUG	shutdown
+1502625046184	addons.xpi-utils	DEBUG	shutdown
+1502625046185	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1502625046185	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1502625046187	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1502625046188	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1502625046189	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1502625046192	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1502625046196	addons.manager	DEBUG	Async provider shutdown done
+1502625046234	Marionette	INFO	Ceased listening
+1502625048313	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1502625048313	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+1502625048314	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1502625048315	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.50
+1502625048315	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1502625048409	addons.manager	DEBUG	shutdown
+1502625048409	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1502625048410	addons.xpi	DEBUG	shutdown
+1502625048410	addons.xpi-utils	DEBUG	shutdown
+1502625048410	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1502625048411	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1502625048412	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1502625048413	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1502625048414	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1502625048416	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1502625048419	addons.manager	DEBUG	Async provider shutdown done
+1502625048456	Marionette	INFO	Ceased listening
+1502625052140	geckodriver	INFO	geckodriver 0.18.0
+1502625052183	geckodriver	INFO	Listening on 127.0.0.1:53067
+1502625053205	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502625053372	addons.manager	DEBUG	Application has been upgraded
+1502625053390	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1502625053392	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1502625053394	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1502625053396	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1502625053396	addons.manager	DEBUG	Starting provider: XPIProvider
+1502625053397	addons.xpi	DEBUG	startup
+1502625053397	addons.xpi	INFO	Removing all system add-on upgrades.
+1502625053397	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1502625053398	addons.xpi	INFO	Mapping aushelper@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1502625053398	addons.xpi	INFO	Mapping e10srollout@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi
+1502625053398	addons.xpi	INFO	Mapping firefox@getpocket.com to /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1502625053398	addons.xpi	INFO	Mapping screenshots@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
+1502625053398	addons.xpi	INFO	Mapping webcompat@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1502625053399	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1502625053399	addons.xpi	DEBUG	checkForChanges
+1502625053399	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1502625053400	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+1502625053400	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+1502625053401	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1502625053401	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+1502625053402	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1502625053402	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1502625053402	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1502625053403	addons.xpi	DEBUG	New add-on screenshots@mozilla.org in app-system-defaults
+1502625053403	addons.xpi	DEBUG	getModTime: Recursive scan of screenshots@mozilla.org
+1502625053403	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+1502625053404	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1502625053404	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1502625053404	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1502625053404	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-system-defaults":{"aushelper@mozilla.org":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi","st":1498666068000},"e10srollout@mozilla.org":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi","st":1498666068000},"firefox@getpocket.com":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi","st":1498666068000},"screenshots@mozilla.org":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi","st":1498666068000},"webcompat@mozilla.org":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi","st":1498666068000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1498666068000}}}
+1502625053410	addons.xpi-utils	DEBUG	Opening XPI database /tmp/rust_mozprofile.2AyWDWOJ3eeF/extensions.json
+1502625053411	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1502625053418	DeferredSave.extensions.json	DEBUG	Save changes
+1502625053419	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+1502625053422	DeferredSave.extensions.json	DEBUG	Starting timer
+1502625053423	DeferredSave.extensions.json	DEBUG	Save changes
+1502625053424	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1502625053428	DeferredSave.extensions.json	DEBUG	Save changes
+1502625053428	addons.xpi-utils	DEBUG	New add-on screenshots@mozilla.org installed in app-system-defaults
+1502625053432	DeferredSave.extensions.json	DEBUG	Save changes
+1502625053433	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+1502625053436	DeferredSave.extensions.json	DEBUG	Save changes
+1502625053437	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1502625053440	DeferredSave.extensions.json	DEBUG	Save changes
+1502625053442	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+1502625053448	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1502625053451	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+1502625053451	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+1502625053452	DeferredSave.extensions.json	DEBUG	Save changes
+1502625053452	addons.manager	DEBUG	Registering startup change 'installed' for e10srollout@mozilla.org
+1502625053453	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi
+1502625053454	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.50
+1502625053455	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+1502625053455	DeferredSave.extensions.json	DEBUG	Save changes
+1502625053455	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+1502625053456	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1502625053458	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+1502625053458	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1502625053458	DeferredSave.extensions.json	DEBUG	Save changes
+1502625053458	addons.manager	DEBUG	Registering startup change 'installed' for screenshots@mozilla.org
+1502625053459	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
+1502625053460	addons.xpi	DEBUG	Calling bootstrap method install on screenshots@mozilla.org version 6.6.0
+1502625053460	addons.xpi-utils	DEBUG	Make addon app-system-defaults:screenshots@mozilla.org visible
+1502625053461	DeferredSave.extensions.json	DEBUG	Save changes
+1502625053461	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+1502625053461	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1502625053462	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.1
+1502625053462	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+1502625053463	DeferredSave.extensions.json	DEBUG	Save changes
+1502625053463	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1502625053463	DeferredSave.extensions.json	DEBUG	Save changes
+1502625053464	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{253b67de-ccc4-4d42-a24a-49a59f306f8b}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi","installDate":1498666068000,"updateDate":1498666068000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502625053464	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1502625053464	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{b3f62f08-71db-3945-b4f6-9e3684d1385e}","location":"app-system-defaults","version":"1.50","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi","installDate":1498666068000,"updateDate":1498666068000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":12519,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502625053464	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1502625053465	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{ebfc7f80-d659-0d4a-bfeb-49c850fba243}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi","installDate":1498666068000,"updateDate":1498666068000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":913906,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502625053465	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1502625053465	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{d7e57fdb-922b-9041-8730-db0a9a9dc736}","location":"app-system-defaults","version":"6.6.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://pageshot.net/"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi","installDate":1498666068000,"updateDate":1498666068000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":716271,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"51.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502625053465	addons.xpi	DEBUG	getModTime: Recursive scan of screenshots@mozilla.org
+1502625053465	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{1b3b07fc-82fd-e44d-84dc-ba2f5cd16119}","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi","installDate":1498666068000,"updateDate":1498666068000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":9006,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502625053465	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1502625053466	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{4b45b4ba-dee1-a141-9fd7-1ccb87c58a2d}","location":"app-global","version":"54.0.1","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":"chrome://browser/content/default-theme-icon.svg","icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1498666068000,"updateDate":1498666068000,"applyBackgroundUpdates":1,"skinnable":true,"size":3914,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.0.1"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null}
+1502625053466	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1502625053467	DeferredSave.extensions.json	DEBUG	Save changes
+1502625053467	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1502625053467	addons.xpi-utils	DEBUG	Updating add-on states
+1502625053467	addons.xpi-utils	DEBUG	Writing add-ons list
+1502625053468	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1502625053469	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1502625053470	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi
+1502625053470	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1502625053471	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1502625053471	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1502625053472	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
+1502625053472	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1502625053472	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1502625053473	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1502625053476	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1502625053477	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1502625053478	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1502625053478	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1502625053478	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1502625053479	addons.manager	DEBUG	Starting provider: GMPProvider
+1502625053482	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1502625053482	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1502625053482	addons.manager	DEBUG	Starting provider: PluginProvider
+1502625053482	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1502625053482	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1502625053482	addons.manager	DEBUG	Completed startup sequence
+1502625053713	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1502625053714	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1502625053714	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1502625053731	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1502625053731	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1502625053731	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1502625053735	DeferredSave.extensions.json	DEBUG	Starting write
+1502625053835	DeferredSave.extensions.json	DEBUG	Write succeeded
+1502625053836	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1502625054643	Marionette	INFO	Listening on port 53076
+1502625054752	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502625054866	Marionette	DEBUG	loaded listener.js
+1502625054894	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 17:20:54.913 plugin-container[5746:111894] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x933b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 17:20:54.915 plugin-container[5746:111894] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9603, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502625055439	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502625055439	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502625056611	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502625056671	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502625056679	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502625056861	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502625056862	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502625056867	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502625056887	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502625056889	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502625056890	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502625056891	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502625056981	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502625056981	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/html/r20170807/r20170110/zrt_lookup.html#"
+1502625056984	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/html/r20170807/r20170110/zrt_lookup.html#"
+1502625057040	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502625057145	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502625057147	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502625057147	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502625057219	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6685711026657277&output=html&h=250&slotname=4297057865&adk=121994594&adf=200314170&w=970&lmt=1502625056&flash=0&url=https%3A%2F%2Fwww.irctc.co.in%2Feticketing%2FloginHome.jsf&wgl=1&dt=1502625056596&bpp=9&bdt=1159&fdt=17&idt=333&shv=r20170807&cbv=r20170110&saldr=sa&correlator=1600318722994&frm=20&ga_vid=542603209.1502625056&ga_sid=1502625057&ga_hid=484294985&ga_fc=0&pv=2&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=900&u_w=1440&u_ah=797&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=332&ady=640&biw=1280&bih=638&abxe=1&eid=389613001&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C717%2C1280%2C638&vis=1&rsz=%7C%7CloeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=1&xpc=TPSfHzy3ly&p=https%3A//www.irctc.co.in&dtd=361"
+1502625057226	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6685711026657277&output=html&h=250&slotname=4297057865&adk=121994594&adf=200314170&w=970&lmt=1502625056&flash=0&url=https%3A%2F%2Fwww.irctc.co.in%2Feticketing%2FloginHome.jsf&wgl=1&dt=1502625056596&bpp=9&bdt=1159&fdt=17&idt=333&shv=r20170807&cbv=r20170110&saldr=sa&correlator=1600318722994&frm=20&ga_vid=542603209.1502625056&ga_sid=1502625057&ga_hid=484294985&ga_fc=0&pv=2&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=900&u_w=1440&u_ah=797&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=332&ady=640&biw=1280&bih=638&abxe=1&eid=389613001&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C717%2C1280%2C638&vis=1&rsz=%7C%7CloeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=1&xpc=TPSfHzy3ly&p=https%3A//www.irctc.co.in&dtd=361"
+1502625057227	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502625057384	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6685711026657277&output=html&h=250&slotname=9574148485&adk=2058573712&adf=1354664170&w=300&lmt=1502625057&flash=0&url=https%3A%2F%2Fwww.irctc.co.in%2Feticketing%2FloginHome.jsf&wgl=1&dt=1502625056649&bpp=10&bdt=1212&fdt=329&idt=353&shv=r20170807&cbv=r20170110&saldr=sa&prev_slotnames=4297057865&correlator=1600318722994&frm=20&ga_vid=542603209.1502625056&ga_sid=1502625057&ga_hid=484294985&ga_fc=0&pv=1&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=900&u_w=1440&u_ah=797&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=19&ady=895&biw=1280&bih=638&abxe=1&eid=389613001&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C717%2C1280%2C638&vis=1&rsz=%7C%7CloeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=2&xpc=Axk8g4F4aM&p=https%3A//www.irctc.co.in&dtd=379"
+1502625057391	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6685711026657277&output=html&h=250&slotname=9574148485&adk=2058573712&adf=1354664170&w=300&lmt=1502625057&flash=0&url=https%3A%2F%2Fwww.irctc.co.in%2Feticketing%2FloginHome.jsf&wgl=1&dt=1502625056649&bpp=10&bdt=1212&fdt=329&idt=353&shv=r20170807&cbv=r20170110&saldr=sa&prev_slotnames=4297057865&correlator=1600318722994&frm=20&ga_vid=542603209.1502625056&ga_sid=1502625057&ga_hid=484294985&ga_fc=0&pv=1&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=900&u_w=1440&u_ah=797&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=19&ady=895&biw=1280&bih=638&abxe=1&eid=389613001&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C717%2C1280%2C638&vis=1&rsz=%7C%7CloeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=2&xpc=Axk8g4F4aM&p=https%3A//www.irctc.co.in&dtd=379"
+1502625057392	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502625057469	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6685711026657277&output=html&h=90&slotname=8261066182&adk=2393475533&adf=3804402607&w=970&lmt=1502625057&flash=0&url=https%3A%2F%2Fwww.irctc.co.in%2Feticketing%2FloginHome.jsf&wgl=1&dt=1502625056714&bpp=14&bdt=1277&fdt=325&idt=375&shv=r20170807&cbv=r20170110&saldr=sa&prev_slotnames=4297057865%2C9574148485&correlator=1600318722994&frm=20&ga_vid=542603209.1502625056&ga_sid=1502625057&ga_hid=484294985&ga_fc=0&pv=1&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=900&u_w=1440&u_ah=797&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=332&ady=1121&biw=1280&bih=638&abxe=1&eid=389613001&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C717%2C1280%2C638&vis=1&rsz=%7C%7CpoeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=3&xpc=kqBUMtKnqN&p=https%3A//www.irctc.co.in&dtd=403"
+1502625057477	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-6685711026657277&output=html&h=90&slotname=8261066182&adk=2393475533&adf=3804402607&w=970&lmt=1502625057&flash=0&url=https%3A%2F%2Fwww.irctc.co.in%2Feticketing%2FloginHome.jsf&wgl=1&dt=1502625056714&bpp=14&bdt=1277&fdt=325&idt=375&shv=r20170807&cbv=r20170110&saldr=sa&prev_slotnames=4297057865%2C9574148485&correlator=1600318722994&frm=20&ga_vid=542603209.1502625056&ga_sid=1502625057&ga_hid=484294985&ga_fc=0&pv=1&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=1&u_java=0&u_h=900&u_w=1440&u_ah=797&u_aw=1440&u_cd=24&u_nplug=0&u_nmime=0&adx=332&ady=1121&biw=1280&bih=638&abxe=1&eid=389613001&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C4%2C23%2C1440%2C23%2C1280%2C717%2C1280%2C638&vis=1&rsz=%7C%7CpoeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=3&xpc=kqBUMtKnqN&p=https%3A//www.irctc.co.in&dtd=403"
+1502625057478	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502625057647	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502625057654	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502625057695	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502625057807	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502625058297	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.irctc.co.in/eticketing/loginHome.jsf"
+1502625114501	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/54.0.1/20170628075643/Darwin_x86_64-gcc3/en-US/release/Darwin%2016.7.0/default/default/update.xml
+1502625115983	addons.productaddons	INFO	Completed downloading document
+1502625116633	addons.productaddons	INFO	downloadXHR File download. status=200
+1502625116636	addons.productaddons	INFO	Downloaded file will be saved to /private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/TemporaryItems/tmpaddon
+1502625118997	addons.productaddons	INFO	downloadXHR File download. status=200
+1502625119002	addons.productaddons	INFO	Downloaded file will be saved to /private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/TemporaryItems/tmpaddon
+1502625578182	addons.manager	INFO	Skipping background update check
+1502625827878	DeferredSave.extensions.json	DEBUG	Save changes
+1502625827879	DeferredSave.extensions.json	DEBUG	Starting timer
+1502625828622	DeferredSave.extensions.json	DEBUG	Starting write
+1502625828626	DeferredSave.extensions.json	DEBUG	Write succeeded
+1502631750389	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1502631750390	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+1502631750390	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1502631750391	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.50
+1502631750391	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1502631750486	addons.manager	DEBUG	shutdown
+1502631750486	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1502631750486	addons.xpi	DEBUG	shutdown
+1502631750487	addons.xpi-utils	DEBUG	shutdown
+1502631750487	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1502631750488	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1502631750490	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1502631750490	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1502631750492	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1502631750495	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1502631750500	addons.manager	DEBUG	Async provider shutdown done
+1502631750533	Marionette	INFO	Ceased listening
